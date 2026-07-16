@@ -19,8 +19,8 @@ R code and analysis pipeline for the peer-reviewed manuscript:
 
 ## Key Findings
 
-- **Urbanization more than [doubles soil P stocks]{.underline}**in tropical urban croplands
-- **Tailored sequential extraction resolves [calcium-bound P]{.underline}** emerges as major pool (atypical in strongly weathered tropical soils) masked in standard P fractionation of tropical soils
+- **Urbanization more than doubles soil P stocks** in tropical urban croplands
+- **Tailored sequential extraction resolves calcium-bound P** emerges as major pool (atypical in strongly weathered tropical soils) masked in standard P fractionation of tropical soils
 - **Dual-pathway control on available P**: natively by pedogenic oxides + introduced calcium pathways under urbanization
 - **Tropical urban arable soils act as inadvertent P sinks**, potential to be harnessed for sustainable food production
 
