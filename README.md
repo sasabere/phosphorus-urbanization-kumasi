@@ -246,7 +246,7 @@ Deutsche Forschungsgemeinschaft (DFG), project **467340364**
 **Stephen B. Asabere**\
 Department of Physical Geography\
 University of Göttingen\
-📧 [stephen.asabere\@icloud.de](mailto:stephen.asabere@uni-goettingen.de){.email}\
+📧 [stephen.asabere\@icloud.de](mailto:stephen.asabere@uni-goettingen.de)
 🔗 [GitHub](https://github.com/sasabere)
 
 ------------------------------------------------------------------------
