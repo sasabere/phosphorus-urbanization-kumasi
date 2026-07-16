@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/30095826/README.md)
 ------------------------------------------------------------------------
 
-editor_options: markdown: wrap: 72 ---
+
 
 # Urbanization and Soil Phosphorus in Tropical West Africa
 
