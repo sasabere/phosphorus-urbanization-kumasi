@@ -122,6 +122,7 @@ Data are publicly available under **CC0 1.0** — no restrictions on reuse.
 ```r
 source("scripts/Figure4.R")   # P fraction stocks (panels a–f)
 source("scripts/Figure5.R")   # Mean relative P proportions
+source("scripts/Figure6.R")   # Bivariate regressions: PPa vs reserve pools (panels a–c)
 ```
 
 Saves PNG and PDF files to `output/figures/`.
@@ -166,7 +167,7 @@ Sequential extraction separating four operational pools:
 | 3 | Sequential P fractionation scheme | — (not coded) |
 | 4 | P fraction stocks across urbanisation classes (a–f) | `scripts/Figure4.R` |
 | 5 | Mean relative proportions of P fractions | `scripts/Figure5.R` |
-| 6 | Bivariate regressions: PPa vs reserve pools | — (in progress) |
+| 6 | Bivariate regressions: PPa vs PSOM, PCa, POCC (a–c) | `scripts/Figure6.R` |
 | 7 | SEM path diagrams | — (in progress) |
 
 Output: `output/figures/` (PNG + PDF formats)
