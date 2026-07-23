@@ -4,7 +4,7 @@
 # Automatically installs and loads all required R packages for the analysis
 #
 # Author: Stephen Boahen Asabere (University of Goettingen, stephen.asabere@icloud.com)
-# Last updated: July 2026
+# Last updated: July 2026, version 01
 
 ################################################################################
 
