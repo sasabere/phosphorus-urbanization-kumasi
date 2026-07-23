@@ -30,7 +30,7 @@ R code and analysis pipeline for the peer-reviewed manuscript:
 
 ``` r
 # 1. Install packages
-source("scripts/utils/load_packages.R")
+source("scripts/load_packages.R")
 
 # 2. Download data from Dataverse
 source("data/download_data.R")
