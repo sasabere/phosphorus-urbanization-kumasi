@@ -30,8 +30,8 @@ source("scripts/load_packages.R")
 # 2. Download data from Göttingen Dataverse
 source("data/download_data.R")
 
-# 3. Reproduce Figure 4
-source("scripts/Figure4.R")
+# 3. Reproduce all figures
+source("scripts/run_full_analysis.R")
 ```
 
 ------------------------------------------------------------------------
@@ -129,6 +129,8 @@ source("scripts/Figure7.R")   # SEM path diagrams by duration and intensity (pan
 Saves PNG and PDF files to `output/figures/`.
 
 ### Run Full Pipeline
+
+Reproduces all four manuscript figures in sequence:
 
 ```r
 source("scripts/run_full_analysis.R")
