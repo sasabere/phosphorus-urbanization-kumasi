@@ -25,7 +25,7 @@ R code and analysis pipeline for the peer-reviewed manuscript:
 
 ```r
 # 1. Install required packages
-source("scripts/load_packages.R")
+source("scripts/utils/load_packages.R")
 
 # 2. Download data from Göttingen Dataverse
 source("data/download_data.R")
@@ -46,11 +46,14 @@ phosphorus-urbanization-kumasi/
 ├── .gitignore                       # Excludes data files and local outputs
 │
 ├── scripts/
-│   ├── load_packages.R              # Installs and loads all required packages
-│   ├── Figure4.R                    # P fractions across urbanisation classes (panels a–f)
-│   ├── run_full_analysis.R          # Master script (runs entire pipeline)
+│   ├── run_full_analysis.R          # Master script — runs the entire pipeline
 │   │
 │   └── utils/
+│       ├── load_packages.R          # Installs and loads all required packages
+│       ├── Figure4.R                # P fractions across urbanisation classes (panels a–f)
+│       ├── Figure5.R                # Mean relative proportions of P fractions
+│       ├── Figure6.R                # Bivariate regressions: PPa vs reserve pools (a–c)
+│       ├── Figure7.R                # SEM path diagrams by duration & intensity (a–d)
 │       ├── function_twoway_boxplot.R
 │       ├── function_twoway_boxplot_points_Shape.R
 │       └── function_twoway_boxplot_points_Shape_totalPfractions.R
@@ -103,7 +106,7 @@ Data are publicly available under **CC0 1.0** — no restrictions on reuse.
 2. **Install R packages:**
 
     ```r
-    source("scripts/load_packages.R")
+    source("scripts/utils/load_packages.R")
     ```
 
 3. **Download the dataset from Dataverse:**
@@ -120,10 +123,10 @@ Data are publicly available under **CC0 1.0** — no restrictions on reuse.
 ### Reproduce individual figures
 
 ```r
-source("scripts/Figure4.R")   # P fraction stocks (panels a–f)
-source("scripts/Figure5.R")   # Mean relative P proportions
-source("scripts/Figure6.R")   # Bivariate regressions: PPa vs reserve pools (panels a–c)
-source("scripts/Figure7.R")   # SEM path diagrams by duration and intensity (panels a–d)
+source("scripts/utils/Figure4.R")   # P fraction stocks (panels a–f)
+source("scripts/utils/Figure5.R")   # Mean relative P proportions
+source("scripts/utils/Figure6.R")   # Bivariate regressions: PPa vs reserve pools (panels a–c)
+source("scripts/utils/Figure7.R")   # SEM path diagrams by duration and intensity (panels a–d)
 ```
 
 Saves PNG and PDF files to `output/figures/`.

@@ -24,7 +24,7 @@
 ################################################################################
 
 # ── 0. Packages ────────────────────────────────────────────────────────────────
-source("scripts/load_packages.R")
+source("scripts/utils/load_packages.R")
 library(lavaan)
 library(semPlot)
 library(cowplot)

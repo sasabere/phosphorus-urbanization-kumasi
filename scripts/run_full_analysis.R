@@ -43,23 +43,23 @@ dir.create("output/tables",  recursive = TRUE, showWarnings = FALSE)
 
 # ── Packages ───────────────────────────────────────────────────────────────────
 cat("\n[0/4] Loading packages...\n")
-source("scripts/load_packages.R")
+source("scripts/utils/load_packages.R")
 
 # ── Figure 4: P fraction stocks across urbanisation classes (panels a–f) ───────
 cat("\n[1/4] Figure 4 — P fraction stocks (panels a\u2013f)...\n")
-source("scripts/Figure4.R")
+source("scripts/utils/Figure4.R")
 
 # ── Figure 5: Mean relative proportions of P fractions ────────────────────────
 cat("\n[2/4] Figure 5 — Relative P proportions...\n")
-source("scripts/Figure5.R")
+source("scripts/utils/Figure5.R")
 
 # ── Figure 6: Bivariate regressions PPa vs reserve pools (panels a–c) ─────────
 cat("\n[3/4] Figure 6 — Bivariate regressions PPa vs reserve pools (panels a\u2013c)...\n")
-source("scripts/Figure6.R")
+source("scripts/utils/Figure6.R")
 
 # ── Figure 7: SEM path diagrams by duration and intensity (panels a–d) ────────
 cat("\n[4/4] Figure 7 — SEM path diagrams (panels a\u2013d)...\n")
-source("scripts/Figure7.R")
+source("scripts/utils/Figure7.R")
 
 # ── Summary ────────────────────────────────────────────────────────────────────
 cat("\n========================================\n")
