@@ -1,13 +1,18 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-Raw_data_reassessed/
-Data_shared_Dataverse_uniGoettingen/
-P_analysis_plots_PContents.R
-P_workData.RData
-R_P_analysis_2026_JBR.R
-R_analysis_2026on.Rproj
-function_twoway_boxplot.R
-function_twoway_boxplot_points_Shape.R
-function_twoway_boxplot_points_Shape_totalPfractions.R
+
+# Data files - downloaded from Dataverse (doi:10.25625/DA3TOR)
+# Run data/download_data.R to retrieve the data locally
+data/*.csv
+data/*.tab
+data/*.tsv
+data/*.RData
+
+# Generated outputs (not tracked - reproduce by running scripts)
+output/figures/*
+output/tables/*
+!output/figures/.gitkeep
+!output/tables/.gitkeep
