@@ -117,13 +117,14 @@ Data are publicly available under **CC0 1.0** — no restrictions on reuse.
 
 ## Usage
 
-### Reproduce Figure 4
+### Reproduce individual figures
 
 ```r
-source("scripts/Figure4.R")
+source("scripts/Figure4.R")   # P fraction stocks (panels a–f)
+source("scripts/Figure5.R")   # Mean relative P proportions
 ```
 
-Saves `Figure4.png` and `Figure4.pdf` to `output/figures/`.
+Saves PNG and PDF files to `output/figures/`.
 
 ### Run Full Pipeline
 
@@ -164,7 +165,7 @@ Sequential extraction separating four operational pools:
 | 2 | Soil profile photograph | — (not coded) |
 | 3 | Sequential P fractionation scheme | — (not coded) |
 | 4 | P fraction stocks across urbanisation classes (a–f) | `scripts/Figure4.R` |
-| 5 | Relative P fraction proportions | — (in progress) |
+| 5 | Mean relative proportions of P fractions | `scripts/Figure5.R` |
 | 6 | Bivariate regressions: PPa vs reserve pools | — (in progress) |
 | 7 | SEM path diagrams | — (in progress) |
 
