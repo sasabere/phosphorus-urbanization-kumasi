@@ -54,10 +54,10 @@ phosphorus-urbanization-kumasi/
 │   ├── run_full_analysis.R        # Master script (runs entire pipeline)
 │   │
 │   ├── modules/
-│   │   ├── 01_data_preparation.R  # Data loading & processing
-│   │   ├── 02_descriptive_stats.R # Statistical analyses
-│   │   ├── 03_visualizations.R    # Figure generation
-│   │   └── 04_SEM_analysis.R      # Structural equation modeling
+│   │   ├── 01_Figure4.R  # Comparing P fractions
+│   │   ├── 02_Figure5.R # Proportions of P fractions
+│   │   ├── 03_Figure6.R    # Bivariate relationships
+│   │   └── 04_Figure7.R      # Structural equation modeling
 │   │
 │   └── utils/
 │       └── load_packages.R        # Package management
