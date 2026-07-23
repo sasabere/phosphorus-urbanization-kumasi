@@ -59,16 +59,12 @@ phosphorus-urbanization-kumasi/
 │   │   ├── 03_Figure6.R    # Bivariate relationships
 │   │   └── 04_Figure7.R      # Structural equation modeling
 │   │
-│   └── utils/
-│       └── load_packages.R        # Package management
+│   └─── load_packages.R        # Package management
 │
 ├── data/
 │   ├── README.md                  # Data access instructions
 │   └── download_data.R            # Download from Dataverse
 │
-├── output/
-│   ├── figures/                   # Generated plots (not tracked)
-│   └── tables/                    # Statistical outputs (not tracked)
 │
 └── docs/
     └── packages.txt               # Package dependencies

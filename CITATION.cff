@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the software and the associated paper."
+title: "R code for: Oxide-occluded to calcium-bound - Urbanization and soil phosphorus in tropical West Africa"
+version: 1.0.0
+date-released: "2026-07-24"
+doi: ""  # to be added
+license: CC-BY-4.0
+repository-code: "https://github.com/sasabere/phosphorus-urbanization-kumasi"
+url: "https://github.com/sasabere/phosphorus-urbanization-kumasi"
+
+authors:
+  - family-names: "Asabere"
+    given-names: "Stephen Boahen"
+    orcid: "https://orcid.org/0000-0001-8946-401X"  # Add your ORCID ID 
+    affiliation: "University of Göttingen, Department of Physical Geography"
+    email: "stephen.asabere@icloud.com"
+
+references:
+  - type: article
+    title: "Oxide-occluded to calcium-bound: urbanization increases soil phosphorus stocks and diversifies pools in a tropical West African agroecosystem
+    authors:
+      - family-names: "Asabere"
+        given-names: "Stephen Boahen"
+        - family-names: "Sauer"
+        given-names: "Daniela"
+    journal: "Journal of Geophysical Research: Biogeosciences"
+    year: 2026
+    doi: ""  # Add publication DOI when available
+    
+  - type: dataset
+    title: "Soil Phosphorus Stocks and Partitioning Along an Urbanization Gradient in Kumasi, Ghana"
+    authors:
+      - family-names: "Asabere"
+        given-names: "Stephen Boahen"
+      # Add co-authors here
+    publisher: "University of Göttingen"
+    year: 2025
+    doi: "10.25625/DA3TOR"
+    url: "https://doi.org/10.25625/DA3TOR"
+
+keywords:
+  - "soil phosphorus"
+  - "phosphorus fractionation"
+  - "urbanization"
+  - "tropical soils"
+  - "West Africa"
+  - "Ghana"
+  - "Kumasi"
+  - "urban agriculture"
+  - "calcium-phosphate"
+  - "structural equation modeling"
+  - "Ferric Acrisols"
