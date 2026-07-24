@@ -74,7 +74,9 @@ phosphorus-urbanization-kumasi/
 
 **Repository:** University of Göttingen Research Data Repository (GRO.data)\
 **DOI:** <https://doi.org/10.25625/DA3TOR>\
-**File:** `MAIN_DATA_P_fractions_2026.csv` — 650 topsoil samples × 82 variables
+**File:** `MAIN_DATA_P_fractions_2026.csv` — 650 topsoil samples × 82 variables. The analytical set is 636
+topsoil samples (618 urban arable, 18 reference); remaining rows are KS Profile1
+depth samples, labelled `Profile`, retained
 
 **Contents:** - Soil P fractionation data (PPa, PSOM, PCa, POCC) as stocks (g P m⁻²) - Total P stocks (HNO₃ and multi-acid extraction) - Soil properties (pH, SOC, exchangeable Ca, ECEC) - Urbanization classification (duration: short-term / long-term; intensity: low / high) - Quality flags (LOD and LOQ status for each P fraction)
 
