@@ -1,9 +1,3 @@
----
-
-editor_options: 
-  markdown: 
-    wrap: 72
----
 
 # Urbanization and Soil Phosphorus in Tropical West Africa
 
