@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite both the software and the associated paper."
 title: "R code for: Oxide-occluded to calcium-bound - urbanization and soil phosphorus in tropical West Africa"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-07-24
+doi:"10.5281/zenodo.21532898"
 license: CC-BY-4.0
 repository-code: "https://github.com/sasabere/phosphorus-urbanization-kumasi"
 url: "https://github.com/sasabere/phosphorus-urbanization-kumasi"
