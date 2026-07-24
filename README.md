@@ -249,6 +249,6 @@ University of Göttingen\
 
 ## Version History
 
-- **v1.0.0** (July 2026): Initial release — `load_packages.R`, `download_data.R`, `Figure4.R` `Figure5.R`, `Figure6.R`, `Figure7.R` ------------------------------------------------------------------------
+- **v1.0.0** (July 2026): Initial release — `load_packages.R`, `download_data.R`, `Figure4.R` `Figure5.R`, `Figure6.R`, `Figure7.R` ------------------------------
 
 *Repository maintained by Stephen Asabere \| Last updated: July 2026*
