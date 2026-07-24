@@ -1,3 +1,10 @@
+---
+
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
 # Urbanization and Soil Phosphorus in Tropical West Africa
 
 [![DOI](https://img.shields.io/badge/DOI-10.25625%2FDA3TOR-blue)](https://doi.org/10.25625/DA3TOR) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![R](https://img.shields.io/badge/R-%3E%3D4.0.0-blue)](https://www.r-project.org/)
@@ -23,7 +30,7 @@ R code and analysis pipeline for the peer-reviewed manuscript:
 
 ## Quick Start
 
-```r
+``` r
 # 1. Install required packages
 source("scripts/utils/load_packages.R")
 
@@ -38,7 +45,7 @@ source("scripts/run_full_analysis.R")
 
 ## Repository Structure
 
-```
+```         
 phosphorus-urbanization-kumasi/
 ├── README.md                        # This file
 ├── LICENSE                          # CC BY 4.0 license
@@ -71,16 +78,11 @@ phosphorus-urbanization-kumasi/
 
 ## Dataset
 
-**Repository:** University of Göttingen Research Data Repository (GRO.data)  
-**DOI:** <https://doi.org/10.25625/DA3TOR>  
+**Repository:** University of Göttingen Research Data Repository (GRO.data)\
+**DOI:** <https://doi.org/10.25625/DA3TOR>\
 **File:** `MAIN_DATA_P_fractions_2026.csv` — 650 topsoil samples × 82 variables
 
-**Contents:**
-- Soil P fractionation data (PPa, PSOM, PCa, POCC) as stocks (g P m⁻²)
-- Total P stocks (HNO₃ and multi-acid extraction)
-- Soil properties (pH, SOC, exchangeable Ca, ECEC)
-- Urbanization classification (duration: short-term / long-term; intensity: low / high)
-- Quality flags (LOD and LOQ status for each P fraction)
+**Contents:** - Soil P fractionation data (PPa, PSOM, PCa, POCC) as stocks (g P m⁻²) - Total P stocks (HNO₃ and multi-acid extraction) - Soil properties (pH, SOC, exchangeable Ca, ECEC) - Urbanization classification (duration: short-term / long-term; intensity: low / high) - Quality flags (LOD and LOQ status for each P fraction)
 
 Data are publicly available under **CC0 1.0** — no restrictions on reuse.
 
@@ -96,22 +98,22 @@ Data are publicly available under **CC0 1.0** — no restrictions on reuse.
 
 ### Setup
 
-1. **Clone the repository:**
+1.  **Clone the repository:**
 
-    ```bash
+    ``` bash
     git clone https://github.com/sasabere/phosphorus-urbanization-kumasi.git
     cd phosphorus-urbanization-kumasi
     ```
 
-2. **Install R packages:**
+2.  **Install R packages:**
 
-    ```r
+    ``` r
     source("scripts/utils/load_packages.R")
     ```
 
-3. **Download the dataset from Dataverse:**
+3.  **Download the dataset from Dataverse:**
 
-    ```r
+    ``` r
     source("data/download_data.R")
     # OR download manually from https://doi.org/10.25625/DA3TOR
     ```
@@ -122,7 +124,7 @@ Data are publicly available under **CC0 1.0** — no restrictions on reuse.
 
 ### Reproduce individual figures
 
-```r
+``` r
 source("scripts/utils/Figure4.R")   # P fraction stocks (panels a–f)
 source("scripts/utils/Figure5.R")   # Mean relative P proportions
 source("scripts/utils/Figure6.R")   # Bivariate regressions: PPa vs reserve pools (panels a–c)
@@ -135,7 +137,7 @@ Saves PNG and PDF files to `output/figures/`.
 
 Reproduces all four manuscript figures in sequence:
 
-```r
+``` r
 source("scripts/run_full_analysis.R")
 ```
 
@@ -147,13 +149,13 @@ source("scripts/run_full_analysis.R")
 
 Sequential extraction separating four operational pools:
 
-| Fraction    | Extraction                      | Interpretation              |
-|-------------|---------------------------------|-----------------------------|
+| Fraction    | Extraction                     | Interpretation              |
+|-------------|--------------------------------|-----------------------------|
 | **PPa**     | 0.5 M NaHCO₃ (pH 8.5)          | Plant-available P           |
 | **PSOM**    | H₂O₂–acetate                   | Soil organic matter-bound P |
-| **PCa**     | Mild HCl–acetate                | Calcium-bound P             |
-| **POCC**    | Dithionite–citrate–bicarbonate  | Oxide-occluded P            |
-| **Total P** | HNO₃ digestion                  | All soil P                  |
+| **PCa**     | Mild HCl–acetate               | Calcium-bound P             |
+| **POCC**    | Dithionite–citrate–bicarbonate | Oxide-occluded P            |
+| **Total P** | HNO₃ digestion                 | All soil P                  |
 
 ### Statistical Analysis
 
@@ -167,7 +169,7 @@ Sequential extraction separating four operational pools:
 ## Figures
 
 | Figure | Description | Script |
-|--------|-------------|--------|
+|--------------------|--------------------------------|--------------------|
 | 1 | Study area map | — (not coded) |
 | 2 | Soil profile photograph | — (not coded) |
 | 3 | Sequential P fractionation scheme | — (not coded) |
@@ -184,7 +186,7 @@ Output: `output/figures/` (PNG + PDF formats)
 
 ### Paper
 
-```
+```         
 Asabere, S.B., Sauer, D. (2026). Oxide-occluded to calcium-bound:
 Urbanization increases soil phosphorus stocks and diversifies pools in
 tropical West African agroecosystems. Journal of Geophysical Research:
@@ -193,7 +195,7 @@ Biogeosciences. https://doi.org/[pending]
 
 ### Dataset
 
-```
+```         
 Asabere, S.B. (2026). Soil Phosphorus Stocks and Partitioning Along an
 Urbanization Gradient in Kumasi, Ghana [Dataset]. University of Göttingen.
 https://doi.org/10.25625/DA3TOR
@@ -201,7 +203,7 @@ https://doi.org/10.25625/DA3TOR
 
 ### Code
 
-```
+```         
 Asabere, S.B. (2026). R code for: Urbanization and soil phosphorus in
 tropical West Africa (v1.0). GitHub.
 https://github.com/sasabere/phosphorus-urbanization-kumasi
@@ -213,7 +215,7 @@ Or use `CITATION.cff` for automatic citation export.
 
 ## License
 
-**Code:** CC BY 4.0 (Creative Commons Attribution 4.0 International)  
+**Code:** CC BY 4.0 (Creative Commons Attribution 4.0 International)\
 **Data:** CC0 1.0 (see Dataverse)
 
 You are free to share and adapt with attribution. See [LICENSE](LICENSE).
@@ -237,18 +239,16 @@ Deutsche Forschungsgemeinschaft (DFG), project **467340364**
 
 ## Contact
 
-**Stephen B. Asabere**  
-Department of Physical Geography  
-University of Göttingen  
-✉ [stephen.asabere@uni-goettingen.de](mailto:stephen.asabere@uni-goettingen.de)  
+**Stephen B. Asabere**\
+Department of Physical Geography\
+University of Göttingen\
+✉ [stephen.asabere\@uni-goettingen.de](mailto:stephen.asabere@uni-goettingen.de)\
 🔗 [GitHub](https://github.com/sasabere)
 
 ------------------------------------------------------------------------
 
 ## Version History
 
-- **v1.0.0** (July 2026): Initial release — `load_packages.R`, `download_data.R`, `Figure4.R`
+- **v1.0.0** (July 2026): Initial release — `load_packages.R`, `download_data.R`, `Figure4.R` `Figure5.R`, `Figure6.R`, `Figure7.R` ------------------------------------------------------------------------
 
-------------------------------------------------------------------------
-
-*Repository maintained by Stephen Asabere | Last updated: July 2026*
+*Repository maintained by Stephen Asabere \| Last updated: July 2026*
