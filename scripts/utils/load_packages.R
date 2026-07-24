@@ -40,6 +40,7 @@ packages <- c(
   
   # Visualization
   "ggplot2",         # Main plotting package
+  "patchwork",       #Plot composition (used in Figure4.R)
   "cowplot",         # Plot arrangements
   "scales",          # Scale functions
   "RColorBrewer",    # Color palettes
